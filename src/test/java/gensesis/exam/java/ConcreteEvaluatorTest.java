@@ -23,8 +23,8 @@ public class ConcreteEvaluatorTest {
 	private Symbol[] winningSymbols;
 	private Symbol[] losingSymbols;
 	
-	private long NORMAL_BET = 100;
-	private long NEGATIVE_BET = -100;
+	private final long NORMAL_BET = 100;
+	private final long NEGATIVE_BET = -100;
 
 	@Before
 	public void setUp() throws Exception {
